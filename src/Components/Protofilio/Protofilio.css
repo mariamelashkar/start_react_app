@@ -1,0 +1,107 @@
+
+ .Protofilio{
+    background-color: #FFFF;
+}
+
+.container .text-center{
+    color:#2C3E50;
+    font-size: 48px;
+    font-weight: 600;
+    
+}
+.portfolio-item {
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    transition: transform 0.3s ease;
+    position: relative;
+
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.divider-portofilio {
+    position: relative;
+    display: inline-block;
+    margin: 1.5rem 0;
+}
+
+/* .divider-portofilio::before,
+.divider-portofilio::after {
+    content: "";
+    position: absolute;
+    top: 50%; 
+    width: 100px;
+    height: 1px; 
+    background-color: #2C3E50; 
+}
+
+.divider-portofilio::before {
+    left: -60px; 
+    top:10px;
+}
+
+.divider::after {
+    right: -60px; 
+    top:10px;
+
+} */
+
+
+.divider-portofilio .fa-star {
+    color:#2C3E50;
+    font-size: 1.5rem;
+
+}
+.overlay {
+    background-color:  rgba(32, 201, 151, 0.8);;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+ 
+}
+
+.overlay i{
+    color: white; 
+    font-size: 3rem; 
+}
+
+.portfolio-item:hover .overlay{
+opacity: 1;
+}
+
+  .modal {
+    --bs-modal-width: 900px !important;
+  }
+
+ figure img{
+   width: 80%;
+   object-fit: contain;
+   border-radius:  15px;
+   margin: auto;
+   display: block;
+
+}
+.modal p{
+    margin-bottom: 1rem;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,68 @@
+.contact {
+    margin: auto;
+    padding-block: 75px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.contact h2 {
+    color: #2c3e50;
+    font-size: 3rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 20px !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form-control {
+    -webkit-appearance: none;
+    appearance: none;
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: .375rem .75rem;
+    transition: .15s ease-in-out, box-shadow .15s ease-in-out;
+    width: 100%;
+    border: none;
+    padding: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+
+input,
+textarea {
+    border: none !important;
+    display: block;
+    font-size: 1.3rem !important;
+    font-weight: 500 !important;
+    outline: none !important;
+}
+
+input[type=submit] {
+    background-color: #1abc9c;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    padding: 20px 30px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    cursor: pointer;
+    text-align: right;
+}
+
+.btn {
+    display: inline-block;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin: 0;
+}
+
+.btn-primary:hover {
+    background-color: #1abc9c !important;
+}

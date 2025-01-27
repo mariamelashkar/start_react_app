@@ -1,0 +1,71 @@
+.fw-bolder {
+    font-weight: bolder !important;
+}
+header{
+    background-color:#1ABC9C ;
+    font-family: "Montserrat", sans-serif;
+}
+h1 {
+    font-size: 4rem ;
+    font-weight: 900;
+    letter-spacing: 1px !important;
+    margin-top: 30px !important;
+    text-align: center;
+    text-transform: uppercase !important;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.Home+p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.Home:after, .Home:before {
+    background-color: #fff;
+    border-radius: 2px;
+    content: "";
+    height: 4px;
+    position: absolute;
+    top: 10px;
+    width: 120px;
+}
+.container .img {
+    padding-top: 100px;
+}
+
+.divider {
+    position: relative;
+    display: inline-block;
+    margin: 1.5rem 0;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    position: absolute;
+    top: 50%; 
+    width: 100px;
+    height: 1px; 
+    background-color: white; 
+}
+
+.divider::before {
+    left: -60px; 
+    top:10px;
+}
+
+.divider::after {
+    right: -60px; 
+    top:10px;
+
+}
+
+.fa-star {
+    color: white; 
+    font-size: 1.5rem; 
+}

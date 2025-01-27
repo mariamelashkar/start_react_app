@@ -1,0 +1,15 @@
+.About {
+    background-color:#1ABC9C ;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 20px;
+    padding-block: 75px;
+}
+
+.About h2{
+    font-size: 3rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 40px !important;
+    text-align: center;
+    text-transform: uppercase;
+}
