@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mariamelashkar.github.io/start_react/",
+  "homepage": "https://mariamelashkar.github.io/start_react_app/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
